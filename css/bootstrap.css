@@ -41,6 +41,43 @@
   box-sizing: border-box;
 }
 
+/* Large screen */
+@media screen and (min-width: 601px) {
+  .display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+/* Small screen */
+@media screen and (max-width: 600px) {
+  .display-4 {
+    font-size: 8vw;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+/* Large screen */
+@media screen and (min-width: 1001px) {
+  .images {
+    width: 25% !important;
+  }
+
+  .side-spacing {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+}
+
+/* Small screen */
+@media screen and (max-width: 1000px) {
+  .images {
+    width: 40vw !important;
+  }
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -363,7 +400,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
 }
 
 h2, .h2 {
@@ -405,12 +442,6 @@ h6, .h6 {
 
 .display-3 {
   font-size: 4.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.display-4 {
-  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
