@@ -57,6 +57,10 @@
     font-weight: 300;
     line-height: 1.2;
   }
+  
+  .appointment {
+    width: 215px;
+  }
 }
 
 /* Large screen */
@@ -8011,6 +8015,10 @@ button.bg-dark:focus {
 
 .overflow-auto {
   overflow: auto !important;
+}
+
+.overflow-visible {
+  overflow: visible !important;
 }
 
 .overflow-hidden {
