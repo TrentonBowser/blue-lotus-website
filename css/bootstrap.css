@@ -57,9 +57,9 @@
     font-weight: 300;
     line-height: 1.2;
   }
-  
+
   .appointment {
-    width: 215px;
+    padding-top: 50px !important;
   }
 }
 
@@ -119,6 +119,22 @@
   background: none !important;
   max-height: 600px;
   maX-width: 600px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -70px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 70px;
 }
 
 html {
