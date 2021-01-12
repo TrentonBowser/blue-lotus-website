@@ -61,6 +61,10 @@
   .appointment {
     padding-top: 50px !important;
   }
+
+  h3 {
+    font-size: 1.25rem !important;
+  }
 }
 
 /* Large screen */
