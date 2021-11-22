@@ -48,6 +48,11 @@
     font-weight: 300;
     line-height: 1.2;
   }
+
+  .navbar li {
+    margin-left : 0.5em;
+    margin-right : 0.5em;
+  }
 }
 
 /* Small screen */
